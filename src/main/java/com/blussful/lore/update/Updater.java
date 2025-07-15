@@ -11,7 +11,7 @@ import java.net.URL;
 public class Updater {
 
     private final Lore plugin;
-    private final String updateUrl = "https://github.com/BlussFul/InfectionLore/blob/main/target/lore-1.0.jar"; // Укажите реальный URL
+    private final String updateUrl = "https://github.com/BlussFul/InfectionLore/releases/download/v1.0/lore-1.0.jar"; // Укажите реальный URL
 
     public Updater(Lore plugin) {
         this.plugin = plugin;
